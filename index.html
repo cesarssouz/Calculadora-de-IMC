@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caclulator IMC</title>
     <link rel="stylesheet" href="./assets/style.css">
+
 </head>
 
 <body>
@@ -34,18 +35,27 @@
                 </div>
                 <div class="calculadora">
                     <h2>Calcule seu IMC</h2>
-                    <label for="Peso">Peso</label>
-                    <input type="number">
+                    <form action="/" id="form" method="post">
+                        <div>
+                            <label for="peso">Peso</label>
+                            <input type="number" id="peso" name="peso">
+                        </div>
+                        <div>
+                            <label for="altura">Altura</label>
+                            <input type="number" id="altura" name="altura">
+                        </div>
 
-                    <label for="Altura">Altura</label>
-                    <input type="number">
-
-                    <button>Enviar</button>
+                        <button type="submit">Enviar</button>
+                    </form>
                 </div>
                 <div>
                 </div>
+
+                <div id="resultado"></div>
+            </div>
     </section>
 
+    <script src="./assets/main.js"></script>
 </body>
 
 </html>

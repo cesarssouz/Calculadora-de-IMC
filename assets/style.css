@@ -14,7 +14,7 @@ body {
 
 section {
     background-color: aliceblue;
-    max-width: 600px;
+    max-width: 610px;
     height: 90vh;
     display: flex;
     border-radius: 7px;
@@ -51,18 +51,19 @@ section {
     gap: 20px;
 }
 
-.calculadora {
-    margin-top: 20px;
+.calculadora form div {
+    gap: 10px;
     display: flex;
     flex-direction: column;
 }
 
 .calculadora h2 {
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.calculadora label {
-    font-family: 200px;
+.calculadora form div {
+    font-weight: 400;
 }
 
 .calculadora input {
@@ -73,6 +74,7 @@ section {
 
 .calculadora button {
     margin-top: 10px;
+    width: 100%;
     padding: 10px;
     background-color: red;
     color: aliceblue;
