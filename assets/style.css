@@ -86,4 +86,13 @@ section {
     cursor: pointer;
 }
 
+.resultado-p {
+    background-color: rgb(136, 255, 120);
+    padding: 10px 20px;
+    margin-top: 13px;
+    text-align: center;
+    border-radius: 5px;
+    color: antiquewhite;
+}
+
 

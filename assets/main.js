@@ -9,12 +9,10 @@ form.addEventListener('submit', function(evento) {
 
 function resultado (mensagem) {
     const resultado = document.querySelector('#resultado')
-    console.log('resultado', resultado);
-
-
     resultado.innerHTML = ""
     const p = document.createElement('p')
-    p.innerHTML = mensagem
+    p.classList.add('resultado-p')
+    p.innerHTML = 'qualquer coisa'
     resultado.appendChild(p);
 }
 
